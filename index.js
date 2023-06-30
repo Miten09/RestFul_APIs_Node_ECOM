@@ -16,5 +16,5 @@ const user_routes = require("./routes/userRoutes");
 app.use("/api", user_routes);
 
 app.listen(3000, () => {
-  console.log("Server Start");
+  console.log("Server Started");
 });
