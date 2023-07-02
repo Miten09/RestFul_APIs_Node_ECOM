@@ -52,5 +52,6 @@ user_route.post("/update-password", auth, user_controller.update_password);
 // Forget Password API
 
 user_route.post("/forget-password", user_controller.forget_password);
+user_route.get("/reset-password", user_controller.reset_password);
 
 module.exports = user_route;
