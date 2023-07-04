@@ -210,7 +210,7 @@ const reset_password = async (req, res) => {
         .send({ success: false, msg: "This link has been expired." });
     }
   } catch (error) {
-    res.status(400).send({ success: false, msg: error.message });
+    res.status(400).send({ success: falsee, msg: error.message });
   }
 };
 
